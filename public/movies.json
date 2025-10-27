@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "El misterio del bosque",
+    "synopsis": "Un grupo de amigos se adentra en un bosque misterioso y descubre secretos que cambiarán sus vidas.",
+    "year": 2023,
+    "cover": "Portada bosque misterioso",
+    "created_at": "2025-08-27T00:00:00.000000Z",
+    "updated_at": "2025-08-27T00:00:00.000000Z"
+  },
+  {
+    "id": 2,
+    "title": "La última noche",
+    "synopsis": "Una noche intensa donde las decisiones cambian el destino de todos los protagonistas.",
+    "year": 2022,
+    "cover": "Portada última noche",
+    "created_at": "2025-08-27T00:00:00.000000Z",
+    "updated_at": "2025-08-27T00:00:00.000000Z"
+  },
+  {
+    "id": 3,
+    "title": "Sombras del pasado",
+    "synopsis": "Los secretos del pasado regresan para perseguir a quienes pensaban que estaban a salvo.",
+    "year": 2021,
+    "cover": "Portada sombras del pasado",
+    "created_at": "2025-08-27T00:00:00.000000Z",
+    "updated_at": "2025-08-27T00:00:00.000000Z"
+  },
+  {
+    "id": 4,
+    "title": "Horizonte desconocido",
+    "synopsis": "Una expedición hacia lo desconocido revela maravillas y peligros que nadie imaginó.",
+    "year": 2024,
+    "cover": "Portada horizonte desconocido",
+    "created_at": "2025-08-27T00:00:00.000000Z",
+    "updated_at": "2025-08-27T00:00:00.000000Z"
+  },
+  {
+    "id": 5,
+    "title": "Ecos del silencio",
+    "synopsis": "En un pequeño pueblo, el silencio esconde verdades que solo unos pocos se atreven a descubrir.",
+    "year": 2020,
+    "cover": "Portada ecos del silencio",
+    "created_at": "2025-08-27T00:00:00.000000Z",
+    "updated_at": "2025-08-27T00:00:00.000000Z"
+  }
+]

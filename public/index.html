@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; }
+        h1 { text-align: center; }
+        .movie { background: white; padding: 15px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .title { font-weight: bold; font-size: 1.2em; }
+        .year { color: gray; font-size: 0.9em; }
+        .synopsis { margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Lista de Películas</h1>
+    <div id="movies"></div>
+
+    <script>
+        fetch('movies.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('movies');
+                data.forEach(movie => {
+                    const div = document.createElement('div');
+                    div.className = 'movie';
+                    div.innerHTML = `
+                        <div class="title">${movie.title} <span class="year">(${movie.year})</span></div>
+                        <div class="synopsis">${movie.synopsis}</div>
+                        <div class="cover"><em>${movie.cover}</em></div>
+                    `;
+                    container.appendChild(div);
+                });
+            })
+            .catch(err => console.error('Error cargando JSON:', err));
+    </script>
+</body>
+</html>
